@@ -6,8 +6,17 @@
 
     <!-- bean definitions here -->
     <bean id="s1" class ="org.example.Student"></bean>
-    <bean id="s2" class ="org.example.Student"></bean>
-// More than one object id is must
 
+    <bean id="s" class ="org.example.Student"></bean>
+    <bean id="p1" class ="org.example.Pen">
 
+    </bean>
+<!--// More than one object id is must-->
+
+    <bean id ="t1" class="org.example.Teacher">
+    <property name="age" value="20"/>
+        <property name="name" value="Ramkumar"/>
+        <property name="pen"  ref="p1" />
+
+    </bean>
 </beans>
