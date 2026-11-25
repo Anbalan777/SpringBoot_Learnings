@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class EmployeeDTO {
 
-    private String name;
+    public String name;
     private String dept;
     private Integer age;
 
