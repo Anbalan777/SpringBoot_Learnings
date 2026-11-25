@@ -23,8 +23,7 @@ public class App
 
 //        student.show();
             Teacher teacher=context.getBean(Teacher.class,"t1");
-        System.out.println(teacher.getAge());
-        System.out.println(teacher.getName());
+
         teacher.papperCorrection();
         context.getBean("p1");
 

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Pen {
+public class Pen implements Writer{
 
     Pen()
     {
