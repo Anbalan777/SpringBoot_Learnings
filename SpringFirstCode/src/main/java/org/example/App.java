@@ -1,5 +1,6 @@
 package org.example;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -22,6 +23,7 @@ public class App
 //        Student student1=(Student) context.getBean("s1");
 
 //        student.show();
+
             Teacher teacher=context.getBean(Teacher.class,"t1");
 
         teacher.papperCorrection();

@@ -9,7 +9,8 @@
 
     <bean id="s" class ="org.example.Student"></bean>
     <bean id="p1" class ="org.example.Pen"> </bean>
-    <bean id="pc1" class ="org.example.Pencil">
+    <bean id="pc1" class ="org.example.Pencil">    </bean>
+    <bean id="sk1" class ="org.example.Sketch">
 
     </bean>
 <!--// More than one object id is must-->
@@ -17,7 +18,7 @@
     <bean id ="t1" class="org.example.Teacher">
 
 
-        <property name="writer"  ref="p1" />
+        <property name="writer"  ref="s1" />
 
     </bean>
 </beans>
