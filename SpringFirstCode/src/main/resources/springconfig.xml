@@ -8,17 +8,19 @@
     <bean id="s1" class ="org.example.Student"></bean>
 
     <bean id="s" class ="org.example.Student"></bean>
-    <bean id="p1" class ="org.example.Pen"> </bean>
+    <bean id="p1" class ="org.example.Pen" primary="true"> </bean>
     <bean id="pc1" class ="org.example.Pencil">    </bean>
-    <bean id="sk1" class ="org.example.Sketch">
+    <bean id="sk1" class ="org.example.Sketch" >
 
     </bean>
 <!--// More than one object id is must-->
 
-    <bean id ="t1" class="org.example.Teacher">
+    <bean id ="t1" class="org.example.Teacher" autowire="byType">
+<!--    <bean id ="t1" class="org.example.Teacher" autowire="byName">-->
 
 
-        <property name="writer"  ref="s1" />
+
+<!--        <property name="writer"  ref="writer" />-->
 
     </bean>
 </beans>

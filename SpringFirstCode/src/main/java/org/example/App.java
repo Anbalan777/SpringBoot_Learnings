@@ -27,7 +27,7 @@ public class App
             Teacher teacher=context.getBean(Teacher.class,"t1");
 
         teacher.papperCorrection();
-        context.getBean("p1");
+//        context.getBean("p1");
 
 
     }
