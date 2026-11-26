@@ -16,8 +16,8 @@ public class App
 
         ApplicationContext context=new AnnotationConfigApplicationContext(MyConfiguration.class);
 
+
         Student st =context.getBean(Student.class);
-        Student st1 =context.getBean(Student.class);
-        st.show();
+        st.writeexam();
     }
 }
